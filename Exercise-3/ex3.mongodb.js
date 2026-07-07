@@ -1,2 +1,4 @@
 use("sample_mflix")
-db.movies.findOne({ title: "The Matrix" });
+db.movies.find({ 
+  title: { $regex: /^the matrix$/i } 
+});
