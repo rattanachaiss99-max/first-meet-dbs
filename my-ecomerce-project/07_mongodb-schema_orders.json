@@ -1,0 +1,55 @@
+{
+  "_id": "ObjectId('64f3d4e5...111')",
+  "order_number": "ORD-20260708-A9B8",
+  "user_id": "ObjectId('64f1b2c3...999')",
+  "store_id": "ObjectId('64f3d4e5...777')",
+  
+  "items": [
+    {
+      "product_id": "ObjectId('64f2c3d4...888')",
+      "sku": "TSHIRT-BLK-M",
+      "name": "เสื้อยืดสไตล์มินิมอล สีดำ",
+      "variant": "Size: M",
+      "quantity": 2,
+      "unit_price": 299.00,
+      "subtotal": 598.00
+    }
+  ],
+  
+  "payment": {
+    "items_total": 598.00,
+    "shipping_fee": 45.00,
+    "discount_amount": 50.00,
+    "net_total": 593.00,
+    "method": "PROMPTPAY",
+    "transaction_id": "TXN-0987654321",
+    "status": "PAID"
+  },
+  
+  "shipping_address": {
+    "full_name": "สมชาย ใจดี",
+    "phone": "081-234-5678",
+    "address_line1": "123/45 ถนนสุขุมวิท",
+    "sub_district": "คลองเตย",
+    "district": "คลองเตย",
+    "province": "กรุงเทพมหานคร",
+    "postal_code": "10110"
+  },
+  
+  "loyalty": {
+    "points_earned": 59,
+    "points_used": 500,
+    "post_reference_id": "ObjectId('...')"
+  },
+  
+  "order_status": "PROCESSING",
+  
+  "tracking": {
+    "courier": "KERRY",
+    "tracking_number": "KER123456789TH",
+    "shipped_at": "2026-07-09T08:30:00Z"
+  },
+  
+  "created_at": "2026-07-08T10:00:00Z",
+  "updated_at": "2026-07-08T10:05:00Z"
+}

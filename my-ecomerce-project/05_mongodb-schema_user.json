@@ -1,0 +1,42 @@
+{
+  "_id": "ObjectId('64f1b2c3...999')",
+  "wallet_address": "0x123abc456def...",
+  "email": "user@example.com",
+  "display_name": "Shopper Web3",
+  "role": "USER",
+  
+  "loyalty": {
+    "tier": "GOLD",
+    "current_points": 1250,
+    "lifetime_points": 5000
+  },
+  
+  "shipping_addresses": [
+    {
+      "address_id": "ObjectId('...')",
+      "is_default": true,
+      "full_name": "สมชาย ใจดี",
+      "phone": "081-234-5678",
+      "address_line1": "123/45 ถนนสุขุมวิท",
+      "sub_district": "คลองเตย",
+      "district": "คลองเตย",
+      "province": "กรุงเทพมหานคร",
+      "postal_code": "10110"
+    }
+  ],
+  
+  "cart": {
+    "items": [
+      {
+        "product_id": "ObjectId('...')",
+        "store_id": "ObjectId('...')",
+        "quantity": 2,
+        "added_at": "2026-07-08T10:00:00Z"
+      }
+    ],
+    "last_updated": "2026-07-08T10:00:00Z"
+  },
+  
+  "created_at": "2026-01-15T08:30:00Z",
+  "updated_at": "2026-07-08T10:00:00Z"
+}
